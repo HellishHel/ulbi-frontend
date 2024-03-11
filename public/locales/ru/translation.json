@@ -3,5 +3,6 @@
   "translate": "Перевод",
   "Main": "Главная",
   "About": "О сайте",
-  "language": "Русский"
+  "language": "Русский",
+  "NotFoundPage": "Страница не найдена"
 }
