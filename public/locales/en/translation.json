@@ -2,5 +2,6 @@
   "Test key": "Eng variant",
   "translate": "Translate",
   "Main": "Main",
-  "language": "English"
+  "language": "English",
+  "NotFoundPage": "Page not found"
 }
