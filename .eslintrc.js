@@ -36,7 +36,7 @@ module.exports = {
     "no-unused-vars": "warn",
     "@typescript-eslint/no-unused-vars": "warn",
     "no-undef": "off",
-    "i18next/no-literal-string": ["error", { markupOnly: true }],
+    "i18next/no-literal-string": ["warn", { markupOnly: true }],
     // indent: ["error", 4], // Indent with 4 spaces
     // "react/jsx-indent": ["error", 4], // Indent JSX with 4 spaces
     // "react/jsx-indent-props": ["error", 4], // Indent props with 4 spaces

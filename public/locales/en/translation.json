@@ -3,5 +3,7 @@
   "translate": "Translate",
   "Main": "Main",
   "language": "English",
-  "NotFoundPage": "Page not found"
+  "NotFoundPage": "Page not found",
+  "PageError": "PageError",
+  "reload": "Reload"
 }
