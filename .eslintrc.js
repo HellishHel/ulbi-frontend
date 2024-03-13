@@ -20,6 +20,12 @@ module.exports = {
         sourceType: "script",
       },
     },
+    {
+      files: ["**/src/**/*.test.{ts,tsx}"],
+      rules: {
+        "i18next/no-literal-string": "off",
+      },
+    },
   ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
@@ -36,7 +42,10 @@ module.exports = {
     "no-unused-vars": "warn",
     "@typescript-eslint/no-unused-vars": "warn",
     "no-undef": "off",
-    "i18next/no-literal-string": ["warn", { markupOnly: true }],
+    "i18next/no-literal-string": [
+      "warn",
+      { markupOnly: true, ignoreAttribute: ["data-testid"] },
+    ],
     // indent: ["error", 4], // Indent with 4 spaces
     // "react/jsx-indent": ["error", 4], // Indent JSX with 4 spaces
     // "react/jsx-indent-props": ["error", 4], // Indent props with 4 spaces

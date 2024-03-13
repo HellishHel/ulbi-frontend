@@ -5,5 +5,6 @@
   "language": "English",
   "NotFoundPage": "Page not found",
   "PageError": "PageError",
-  "reload": "Reload"
+  "reload": "Reload",
+  "toggle": "toggle"
 }
