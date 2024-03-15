@@ -9,6 +9,8 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
     "plugin:i18next/recommended",
+    "plugin:storybook/recommended",
+    "plugin:storybook/recommended"
   ],
   overrides: [
     {
@@ -44,7 +46,7 @@ module.exports = {
     "no-undef": "off",
     "i18next/no-literal-string": [
       "warn",
-      { markupOnly: true, ignoreAttribute: ["data-testid"] },
+      { markupOnly: true, ignoreAttribute: ["data-testid", "to"] },
     ],
     // indent: ["error", 4], // Indent with 4 spaces
     // "react/jsx-indent": ["error", 4], // Indent JSX with 4 spaces
