@@ -7,5 +7,6 @@
   "NotFoundPage": "Page not found",
   "PageError": "PageError",
   "reload": "Reload",
-  "toggle": "toggle"
+  "toggle": "toggle",
+  "login": "Log in"
 }

@@ -35,12 +35,17 @@
   height: var(--font-line-xl);
 }
 
-.clear {
+.clear,
+.clearInverted {
   padding: 0;
   border: none;
   box-sizing: border-box;
   background: none;
   outline: none;
+}
+
+.clearInverted {
+  color: var(--inverted-primary-color);
 }
 
 .outline {

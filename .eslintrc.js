@@ -10,7 +10,7 @@ module.exports = {
     "plugin:prettier/recommended",
     "plugin:i18next/recommended",
     "plugin:storybook/recommended",
-    "plugin:storybook/recommended"
+    "plugin:storybook/recommended",
   ],
   overrides: [
     {
@@ -34,7 +34,13 @@ module.exports = {
     ecmaVersion: "latest",
     sourceType: "module",
   },
-  plugins: ["@typescript-eslint", "prettier", "import", "i18next"],
+  plugins: [
+    "@typescript-eslint",
+    "prettier",
+    "import",
+    "i18next",
+    "react-hooks",
+  ],
   rules: {
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/ban-ts-comment": "off",
@@ -48,6 +54,8 @@ module.exports = {
       "warn",
       { markupOnly: true, ignoreAttribute: ["data-testid", "to"] },
     ],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "error",
     // indent: ["error", 4], // Indent with 4 spaces
     // "react/jsx-indent": ["error", 4], // Indent JSX with 4 spaces
     // "react/jsx-indent-props": ["error", 4], // Indent props with 4 spaces

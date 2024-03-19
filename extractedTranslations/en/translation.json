@@ -4,6 +4,7 @@
   "NotFoundPage": "NotFoundPage",
   "PageError": "PageError",
   "language": "",
+  "login": "login",
   "reload": "reload",
   "toggle": "toggle"
 }

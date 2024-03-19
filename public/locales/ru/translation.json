@@ -8,5 +8,6 @@
   "NotFoundPage": "Страница не найдена",
   "PageError": "Произошла непредвиденная ошибка",
   "reload": "Обновить страницу",
-  "toggle": "toggle"
+  "toggle": "toggle",
+  "login": "Войти"
 }
