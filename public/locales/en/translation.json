@@ -8,5 +8,7 @@
   "PageError": "PageError",
   "reload": "Reload",
   "toggle": "toggle",
-  "login": "Log in"
+  "login": "Log in",
+  "enterLogin": "Enter login",
+  "enterPassword": "Enter password"
 }

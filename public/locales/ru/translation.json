@@ -9,5 +9,7 @@
   "PageError": "Произошла непредвиденная ошибка",
   "reload": "Обновить страницу",
   "toggle": "toggle",
-  "login": "Войти"
+  "login": "Войти",
+  "enterLogin": "Введите логин",
+  "enterPassword": "Введите пароль"
 }

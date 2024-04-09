@@ -1,8 +1,11 @@
 {
+  "": "",
   "About": "About",
   "Main": "Main",
   "NotFoundPage": "NotFoundPage",
   "PageError": "PageError",
+  "enterLogin": "Enter login",
+  "enterPassword": "Enter password",
   "language": "",
   "login": "login",
   "reload": "reload",
