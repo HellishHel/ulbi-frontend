@@ -1,0 +1,4 @@
+npm run lint:ts
+npm run lint:ts:fix
+npm run lint:scss
+npm run lint:scss:fix
