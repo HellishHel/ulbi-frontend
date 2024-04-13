@@ -30,15 +30,17 @@ export const Button: FC<ButtonProps> = ({
   theme,
   square,
   size = ButtonSize.M,
+  disabled,
   ...props
 }) => {
   return (
     <button
-      className={classNames(cls.Button, { [cls.square]: square }, [
-        className,
-        cls[theme],
-        cls[size],
-      ])}
+      className={classNames(
+        cls.Button,
+        { [cls.square]: square, [cls.disabled]: disabled },
+        [className, cls[theme], cls[size]],
+      )}
+      disabled={disabled}
       {...props}
     >
       {children}

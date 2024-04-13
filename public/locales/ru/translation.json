@@ -11,5 +11,8 @@
   "toggle": "toggle",
   "login": "Войти",
   "enterLogin": "Введите логин",
-  "enterPassword": "Введите пароль"
+  "enterPassword": "Введите пароль",
+  "Authorization": "Авторизация",
+  "wrongUsernameOrPass": "Неверный логин или пароль",
+  "logout": "Выйти"
 }
