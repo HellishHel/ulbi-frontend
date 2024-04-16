@@ -1,17 +1,16 @@
 {
-  "Test key": "Eng variant",
-  "translate": "Translate",
+  "": "",
+  "About": "About",
+  "Authorization": "Authorization",
   "Main": "Main",
-  "language": "English",
-  "shortLanguage": "Eng",
-  "NotFoundPage": "Page not found",
+  "NotFoundPage": "NotFoundPage",
   "PageError": "PageError",
-  "reload": "Reload",
-  "toggle": "toggle",
-  "login": "Log in",
   "enterLogin": "Enter login",
   "enterPassword": "Enter password",
-  "Authorization": "Authorization",
-  "wrongUsernameOrPass": "Wrong username or password",
-  "logout": "Logout"
+  "language": "",
+  "login": "Log in",
+  "logout": "logout",
+  "reload": "reload",
+  "toggle": "toggle",
+  "wrongUsernameOrPass": "Wrong username or password"
 }
