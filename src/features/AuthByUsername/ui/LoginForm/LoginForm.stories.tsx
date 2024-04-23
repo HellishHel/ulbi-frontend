@@ -11,16 +11,19 @@ const meta = {
   parameters: {},
   tags: ["autodocs"],
   argTypes: {},
-  args: {},
+  args: {
+    onSuccess: () => {},
+  },
 } satisfies Meta<typeof LoginForm>;
 
 export default meta;
+
 type Story = StoryObj<typeof meta>;
 
 export const ThemeLight: Story = {
   decorators: [
     ThemeDecorator(Theme.LIGHT, {
-      args: {},
+      args: meta.args,
     }),
     StoreDecorator({
       loginForm: { username: "user", password: "123" },
@@ -31,7 +34,7 @@ export const ThemeLight: Story = {
 export const ThemeDark: Story = {
   decorators: [
     ThemeDecorator(Theme.DARK, {
-      args: {},
+      args: meta.args,
     }),
     StoreDecorator({
       loginForm: { username: "user", password: "123" },

@@ -14,5 +14,6 @@
   "enterPassword": "Введите пароль",
   "Authorization": "Авторизация",
   "wrongUsernameOrPass": "Неверный логин или пароль",
-  "logout": "Выйти"
+  "logout": "Выйти",
+  "Profile": "Профиль"
 }

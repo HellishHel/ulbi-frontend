@@ -1,0 +1,29 @@
+.SidebarItem {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: background-color ease-in-out 0.2s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgb(41 67 177 / 50%);
+  }
+}
+
+.link {
+  width: 100%;
+  transition: all ease-in-out 0.2s;
+}
+
+.icon {
+  fill: var(--inverted-primary-color);
+}
+
+.collapsed {
+  .link {
+    opacity: 0;
+    width: 0;
+  }
+}

@@ -13,5 +13,6 @@
   "enterPassword": "Enter password",
   "Authorization": "Authorization",
   "wrongUsernameOrPass": "Wrong username or password",
-  "logout": "Logout"
+  "logout": "Logout",
+  "Profile": "Profile"
 }

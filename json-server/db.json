@@ -8,7 +8,14 @@
     { "id": "2", "text": "another comment about post 1", "postId": "1" }
   ],
   "profile": {
-    "name": "typicode"
+    "first": "Ольга",
+    "lastname": "Красина",
+    "age": 27,
+    "currency": "RUB",
+    "country": "Russia",
+    "city": "Kazan",
+    "username": "admin",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJn0mPxDWpR_7lL1bdweavauMOvOkcb4Tq2dkmoS2MiAshF6J5G=s576-c-no"
   },
   "users": [
     {
