@@ -15,5 +15,6 @@
   "Authorization": "Авторизация",
   "wrongUsernameOrPass": "Неверный логин или пароль",
   "logout": "Выйти",
-  "Profile": "Профиль"
+  "Profile": "Профиль",
+  "edit": "Редактировать"
 }

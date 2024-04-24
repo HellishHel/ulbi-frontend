@@ -1,4 +1,3 @@
-import { DeepPartial } from "@reduxjs/toolkit";
 import { expect } from "@storybook/test";
 import {
   loginActions,

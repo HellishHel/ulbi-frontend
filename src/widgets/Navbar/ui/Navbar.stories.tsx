@@ -44,7 +44,7 @@ export const DarkWithAuth: Story = {
       args: {},
     }),
     StoreDecorator({
-      user: { authData: {} },
+      user: { authData: { id: "1", username: "username" } },
     }),
   ],
 };

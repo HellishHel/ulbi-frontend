@@ -14,5 +14,6 @@
   "Authorization": "Authorization",
   "wrongUsernameOrPass": "Wrong username or password",
   "logout": "Logout",
-  "Profile": "Profile"
+  "Profile": "Profile",
+  "edit": "Edit"
 }

@@ -1,7 +1,8 @@
-import { classNames } from "shared/lib/classNames/classNames";
+import { classNames, Mods } from "shared/lib/classNames/classNames";
 import {
   FC,
   MouseEvent,
+  MutableRefObject,
   PropsWithChildren,
   useCallback,
   useEffect,
@@ -14,7 +15,7 @@ import cls from "./Modal.module.scss";
 
 interface ModalProps {
   className?: string;
-  isOpen: boolean;
+  isOpen?: boolean;
   onClose?: () => void;
   lazy?: boolean;
 }
@@ -30,7 +31,7 @@ export const Modal: FC<PropsWithChildren<ModalProps>> = ({
 }) => {
   const [isClosing, setIsClosing] = useState<boolean>(false);
   const [isMounted, setIsMounted] = useState<boolean>(false);
-  const timerRef = useRef<ReturnType<typeof setTimeout>>();
+  const timerRef = useRef() as MutableRefObject<ReturnType<typeof setTimeout>>;
 
   useEffect(() => {
     if (isOpen) {
@@ -38,7 +39,7 @@ export const Modal: FC<PropsWithChildren<ModalProps>> = ({
     }
   }, [isOpen]);
 
-  const mods: Record<string, boolean> = {
+  const mods: Mods = {
     [cls.opened]: isOpen,
     [cls.isClosing]: isClosing,
   };
