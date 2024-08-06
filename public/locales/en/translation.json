@@ -15,5 +15,8 @@
   "wrongUsernameOrPass": "Wrong username or password",
   "logout": "Logout",
   "Profile": "Profile",
-  "edit": "Edit"
+  "edit": "Edit",
+  "baseErrorText": "Something went wrong",
+  "cancel": "Cancel",
+  "save": "Save"
 }

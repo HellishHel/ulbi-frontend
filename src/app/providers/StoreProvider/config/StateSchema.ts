@@ -4,7 +4,6 @@ import { LoginSchema } from "features/AuthByUsername";
 import {
   AnyAction,
   CombinedState,
-  Dispatch,
   EnhancedStore,
   Reducer,
   ReducersMapObject,
@@ -43,5 +42,5 @@ export interface ThunkExtraArgs {
 export interface ThunkConfig<T> {
   rejectValue: T;
   extra: ThunkExtraArgs;
-  dispatch?: Dispatch;
+  state: StateSchema;
 }

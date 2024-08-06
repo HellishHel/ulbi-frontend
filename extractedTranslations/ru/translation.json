@@ -6,6 +6,7 @@
   "NotFoundPage": "NotFoundPage",
   "PageError": "PageError",
   "Profile": "Profile",
+  "cancel": "Отменить",
   "edit": "Редактировать",
   "enterLogin": "Введите логин",
   "enterPassword": "Введите пароль",
@@ -14,6 +15,7 @@
   "logout": "logout",
   "name": "name",
   "reload": "reload",
+  "save": "save",
   "toggle": "toggle",
   "wrongUsernameOrPass": "Неверный логин или пароль"
 }
